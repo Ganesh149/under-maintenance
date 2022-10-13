@@ -4125,7 +4125,31 @@ input[type="button"].btn-block {
   line-height: inherit;
   white-space: nowrap;
 }
-
+.brand-section {
+  display: inline-grid;
+  width: fit-content;
+}
+.brand-sub-name {
+  color: rgb(231, 8, 19);
+  font-weight: bold;
+  text-align: right;
+}
+@media only screen and (max-width: 600px) {
+  .brand-name {
+    font-size: 18px !important;
+  } 
+  .brand-sub-name {
+    font-size: 11px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .brand-name {
+    font-size: rem !important;
+  } 
+  .brand-sub-name {
+    font-size: 0.6rem;
+  }
+} 
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
 }
@@ -9800,12 +9824,12 @@ h6,
 }
 
 .jumbotron {
-  background: linear-gradient(rgba(231, 8, 19, 0.8), rgba(231, 8, 19, 0.8)), url(../img/header.jpg), no-repeat center center;
+  background: linear-gradient(rgba(231, 8, 19, 0.8), rgba(231, 8, 19, 0.1)), url(../img/header.jpg), no-repeat center center;
   background-size: cover;
 }
 
 .jumbotron.page-header {
-  background: linear-gradient(rgba(231, 8, 19, 0.8), rgba(231, 8, 19, 0.8)), url(../img/page-header.jpg), no-repeat center center;
+  background: linear-gradient(rgba(231, 8, 19, 0.8), rgba(231, 8, 19, 0.1)), url(../img/page-header.jpg), no-repeat center center;
   background-size: cover;
 }
 
