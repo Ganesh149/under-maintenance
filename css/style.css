@@ -83,7 +83,6 @@ p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
-
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
@@ -365,7 +364,7 @@ h1, h2, h3, h4, h5, h6,
   font-family: "Jost", sans-serif;
   font-weight: 500;
   line-height: 1.2;
-  color: #120F2D;
+  color: rgba(231, 8, 19, 0.8);
 }
 
 h1, .h1 {
@@ -422,7 +421,7 @@ h6, .h6 {
 }
 
 .display-1 {
-  font-size: 6rem;
+  font-size: 4rem;
   font-weight: 300;
   line-height: 1.2;
 }
@@ -461,6 +460,7 @@ h6, .h6 {
   font-size: 3.5rem;
   font-weight: 300;
   line-height: 1.2;
+  color: rgba(231, 8, 19,0.8);
 }
 
 @media (max-width: 1200px) {
@@ -2563,8 +2563,10 @@ fieldset:disabled a.btn {
 
 .btn-danger:hover {
   color: #fff;
-  background-color: #c82333;
-  border-color: #bd2130;
+  /* background-color: #c82333;
+  border-color: #bd2130; */
+  background-color: #1a0f92;
+  border-color: #1a0f92;
 }
 
 .btn-danger:focus, .btn-danger.focus {
@@ -3206,7 +3208,7 @@ input[type="button"].btn-block {
   padding: 0.25rem 1.5rem;
   clear: both;
   font-weight: 400;
-  color: #1a0f92;
+  color: rgb(231, 8, 19);
   text-align: inherit;
   white-space: nowrap;
   background-color: transparent;
@@ -3214,7 +3216,7 @@ input[type="button"].btn-block {
 }
 
 .dropdown-item:hover, .dropdown-item:focus {
-  color: #16181b;
+  color: #1a0f92;
   text-decoration: none;
   background-color: #f8f9fa;
 }
@@ -4131,23 +4133,24 @@ input[type="button"].btn-block {
 }
 .brand-sub-name {
   color: rgb(231, 8, 19);
-  font-weight: bold;
-  text-align: right;
+  /* font-weight: bold; */
+  /* text-align: right; */
+  font-size: 1.2rem;
 }
 @media only screen and (max-width: 600px) {
   .brand-name {
-    font-size: 18px !important;
+    font-size: 1rem !important;
   } 
   .brand-sub-name {
-    font-size: 11px;
+    font-size: 0.7rem;
   }
 }
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 500px) {
   .brand-name {
-    font-size: rem !important;
+    font-size: 1.2rem !important;
   } 
   .brand-sub-name {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
   }
 } 
 .navbar-brand:hover, .navbar-brand:focus {
@@ -4486,6 +4489,9 @@ input[type="button"].btn-block {
 
 .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
   color: #fff;
+}
+.quote {
+  color: #e70813;
 }
 
 .card {
@@ -9808,13 +9814,13 @@ h6,
   padding: 30px 15px;
   font-size: 18px;
   font-weight: 500;
-  color: #1a0f92;
+  color: rgb(231, 8, 19);
   outline: none;
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-  color: rgb(231, 8, 19);
+  color: #1a0f92;
 }
 
 @media (max-width: 991.98px) {
@@ -9824,7 +9830,7 @@ h6,
 }
 
 .jumbotron {
-  background: linear-gradient(rgba(231, 8, 19, 0.8), rgba(231, 8, 19, 0.1)), url(../img/header.jpg), no-repeat center center;
+  background:  linear-gradient(rgb(0, 62, 111), rgba(231, 8, 19, 0.1)), url(../img/header.jpg), no-repeat center center;
   background-size: cover;
 }
 
