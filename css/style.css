@@ -47,6 +47,7 @@ html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  scroll-behavior: smooth;
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
@@ -4136,6 +4137,9 @@ input[type="button"].btn-block {
   /* font-weight: bold; */
   /* text-align: right; */
   font-size: 1.2rem;
+}
+.brand-sub-name-footer {
+  color: #c8c3ff !important;
 }
 @media only screen and (max-width: 600px) {
   .brand-name {
@@ -9830,7 +9834,7 @@ h6,
 }
 
 .jumbotron {
-  background:  linear-gradient(rgb(0, 62, 111), rgba(231, 8, 19, 0.1)), url(../img/header.jpg), no-repeat center center;
+  background:  linear-gradient(rgb(0, 62, 111), rgba(231, 8, 19, 0.1)), url(../img/slider5.jpg), no-repeat center center;
   background-size: cover;
 }
 
